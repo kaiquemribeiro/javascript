@@ -1,0 +1,7 @@
+			JAVASCRIPT
+		Estruturas de dados:
+• Organizar e administra os dados;
+• FIFO: First in first out, o primeiro a entrar é o primeiro a sair;
+• LIFO: Last in first out, o ultimo a entrar é o primeiro a sair;
+• Tipos: Number, String, Booleano;
+• 
