@@ -4,6 +4,16 @@
 • FIFO: First in first out, o primeiro a entrar é o primeiro a sair;
 • LIFO: Last in first out, o ultimo a entrar é o primeiro a sair;
 • Tipos: Number, String, Booleano;
+• typeof para saber o tipo;
 		
-		Variáveis:
+*variavel.Tofixed(2) > mostrar apenas duas casas decimais
+
+		String:
+• pode se usar ", ' ou `;
+• variavel.charAt(4) retorna o caractere na posicao 4;
+• variavel.charCodeAr(4) retorna o valor ASCII do char na posição 4;
+• variavel.indexOf(4) retorna o indice do char na posicao 4;
+• .concat(variavel) concatena strings;
+• variavel.replace(3, 'e') susbtitui o 3 por 'e';
+• ('Ana,Maria,Pedro').split(',') vai armazenar num array tudo que for separado pela virgula. Ex: ['Ana', 'Maria', 'Pedro'];
 • 
