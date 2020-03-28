@@ -16,4 +16,34 @@
 • .concat(variavel) concatena strings;
 • variavel.replace(3, 'e') susbtitui o 3 por 'e';
 • ('Ana,Maria,Pedro').split(',') vai armazenar num array tudo que for separado pela virgula. Ex: ['Ana', 'Maria', 'Pedro'];
+• 'Kaique ' + 'Messias ' + 'Ribeiro'. O + também concatena strings. Saida: Kaique Messias Ribeiro;
+• para considerar quebras de linha e espaços usa-se o template string, com ` (crase) ao inves de aspas. ${variavel} para imprimir a variavel.
+
+		Booleanos:
+• true e false: tudo é true, exceto o 0, string vazia, null NaN e undefined;
+		
+		Array:
+• pode ser declarado de forma literal com os dados [1, 2, 3];
+• valores acessados com nomedoarray[1];
+• pode-se misturar tipos no mesmo array (nao recomendado);
+• no JS os arrays são dinamicos, crescem conforme a necessidade, sem necessidade de alocação manual;
+• variavel.push(1, "oi", false, null) adiciona valores no array;
+• variavel.pop() retorna o valor do ultimo elemento e o apaga;
+• delete array[0] remove o indice selecionado do array;
+• (typeof array) retorna os tipos do array;
+		
+		Objeto:
+• é representado por {};
+• é dinamico, vc pode adicionar atributos ao longo do codigo;
+• const produto = {
+	nome: 'Camiseta',
+	preco: 89.90,
+}
+• pode-se criar objetos dentro de objetos;
+		
+		null e undefined:
+• em tipo primitivos quando fazemos a = 3, b = a, fazemos uma copia do valor de a pra b, em objetos, a = {"teste"}, b = a, b recebe o endereço de memoria de a e não uma copia de seu valor, uma vez que a não armazena {"teste"} e sim aponta para o endereço onde ele esta;
+• undefined é o valor padrão de quando não inicializamos uma variavel;
+• null significa que a variavel nao tem nenhum valor e nao aponta pra nenhum endereço de memoria, mas foi incializada, tambem usa-se para fazer uma variavel parar de apontar;
+• não podemos acessar variaveis tipo null;
 • 
