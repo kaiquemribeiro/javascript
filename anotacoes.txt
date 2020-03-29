@@ -46,4 +46,53 @@
 • undefined é o valor padrão de quando não inicializamos uma variavel;
 • null significa que a variavel nao tem nenhum valor e nao aponta pra nenhum endereço de memoria, mas foi incializada, tambem usa-se para fazer uma variavel parar de apontar;
 • não podemos acessar variaveis tipo null;
-• 
+		
+		Funções:
+• declara-se com function;
+• function nomeDaFuncao(parametros);
+• JS aceita qualquer quantidade e tipo de parametros, roda normal, mas fique atento a saida;
+• funções anonimas não tem nome, mas são atribuidas a uma variavel const nomeDaFuncao = function (parametros), tambem podemos declarar com 
+const nomeDaFuncao = (parametros) =>{
+	return valor
+} isso é uma arrow function;
+também podemos declarar apenas const nomeDaFuncao = (parametros) => valor, onde valor ja é o return
+		
+		let e var:
+• var escopo global e de função;
+• let escopo global, de função e escopo de bloco;
+		
+		Hoisting:
+• içamento, a variavel nao precisa ser declarada antes de seu uso mesmo dentro de funções;
+• funciona apenas com var;
+
+		Notação Ponto:
+• usado para acessar atributos dentro de objetos;
+• objeto.nomedoatributo para acessar (parecido com struct);
+• this.atributo deixa a variavel visivel para todos no codigo;
+
+		Destructuring:
+		Em objetos:
+• Extrair elementos de um objeto;
+• const { nome: n, idade: i } = pessoa. Neste exemplo estou extraindo os valores dos atributos nome e idade do objeto pessoa. Criando duas variaveis const n e i;
+• const { endereco: { logradouro, numero } } = pessoa. Extraindo os valores de logradouro e numero do objeto endereço que está dentro do objeto pessoa;
+		
+		Destructuring:
+		Arrays:
+• const [n1, n2, n3, n4] = [10, 7, 9, 8]. Extraindo os valores do array e atribuindo as variaveis n1, n2, n3 e n4;
+
+		Operadores Aritmeticos:
+• Mesma coisa do C, +-/*%;
+		
+		Operadores relacionais:
+• Mesma coisa do C, exceto que para comparar valores e tipos usamos ===, o == só compara os valores, ex: '1' e 1 são iguais com o ==;
+
+		Operadores lógicos:
+• Mesma coisa do C, && || !;
+
+		Unarios:
+• Mesma coisa do C, ++ --;
+
+		Ternarios:
+• variavel => 7 ? 'Aprovado' : 'Reprovado', ex: nota >= 7 ? se sim 'Aprovado' senão 'Reprovado';
+
+		
