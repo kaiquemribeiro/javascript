@@ -3,24 +3,20 @@ dia. Considere que domingo é o dia 1 e sábado é o dia 7. Utilize a estrutura 
 
 function diaDaSemana(dia){
     switch(dia){
-        case 1: dia = "Domingo";
+        case 1: return "Domingo";
         break;
-        case 2: dia = "Segunda";
+        case 2: return "Segunda";
         break;
-        case 3: dia = "Terça";
+        case 3: return "Terça";
         break;
-        case 4: dia = "Quarta";
+        case 4: return "Quarta";
         break;
-        case 5: dia = "Quinta";
+        case 5: return "Quinta";
         break;
-        case 6: dia = "Sexta";
+        case 6: return "Sexta";
         break;
-        case 7: dia = "Sabado";
+        case 7: return "Sabado";
         break;
-        default: dia = "Dia inválido!";
+        default: return "Dia inválido!";
     }
-    return dia;
 }
- for (i = 1; i <= 8; i++){
-     console.log(diaDaSemana(i));
- }

@@ -5,15 +5,14 @@ também um default, que retornará uma mensagem de erro no console.*/
 
 function verificaFruta(fruta){
     switch(fruta){
-        case "maçã": fruta = "Não vendemos esta fruta aqui";
+        case "maçã": return "Não vendemos esta fruta aqui";
         break;
-        case "kiwi": fruta = "Estamos com escassez de kiwi";
+        case "kiwi": return "Estamos com escassez de kiwi";
         break;
-        case "melancia": fruta = "Aqui está! São R$ 3.00 o kilo";
+        case "melancia": return "Aqui está! São R$ 3.00 o kilo";
         break;
-        default: fruta = "Erro! Fruta não encontrada"
+        default: return "Erro! Fruta não encontrada"
     }
-    return fruta;
 }
 
-console.log(verificaFruta("melancia"));
+console.log(verificaFruta("kiwi"));
