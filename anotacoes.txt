@@ -1,4 +1,4 @@
-			JAVASCRIPT
+		JAVASCRIPT FUNDAMENTOS
 		Estruturas de dados:
 • Organizar e administra os dados;
 • FIFO: First in first out, o primeiro a entrar é o primeiro a sair;
@@ -47,16 +47,6 @@
 • null significa que a variavel nao tem nenhum valor e nao aponta pra nenhum endereço de memoria, mas foi incializada, tambem usa-se para fazer uma variavel parar de apontar;
 • não podemos acessar variaveis tipo null;
 		
-		Funções:
-• declara-se com function;
-• function nomeDaFuncao(parametros);
-• JS aceita qualquer quantidade e tipo de parametros, roda normal, mas fique atento a saida;
-• funções anonimas não tem nome, mas são atribuidas a uma variavel const nomeDaFuncao = function (parametros), tambem podemos declarar com 
-const nomeDaFuncao = (parametros) =>{
-	return valor
-} isso é uma arrow function;
-também podemos declarar apenas const nomeDaFuncao = (parametros) => valor, onde valor ja é o return
-		
 		let e var:
 • var escopo global e de função;
 • let escopo global, de função e escopo de bloco;
@@ -95,4 +85,35 @@ também podemos declarar apenas const nomeDaFuncao = (parametros) => valor, onde
 		Ternarios:
 • variavel => 7 ? 'Aprovado' : 'Reprovado', ex: nota >= 7 ? se sim 'Aprovado' senão 'Reprovado';
 
+		break/continue;
+• break: switch, for, while;
+• continue: for, while;
+
 		
+			FUNÇÕES
+• Chamada de First-Class Object;
+• O return é opcional;
+• declara-se com function;
+• possivel armazenar numa variavel ou array;
+• possivel armazenar em atributos de objetos;
+• function nomeDaFuncao(parametros);
+• JS aceita qualquer quantidade e tipo de parametros, roda normal, mas fique atento a saida;
+• funções anonimas não tem nome, mas são atribuidas a uma variavel const nomeDaFuncao = function (parametros), tambem podemos declarar com 
+const nomeDaFuncao = (parametros) =>{
+	return valor
+} isso é uma arrow function;
+também podemos declarar apenas const nomeDaFuncao = (parametros) => valor, onde valor ja é o return
+
+		bind:
+• amarra o objeto do this a função que vc quer chamar;
+• const nomeDaFuncao = pessoa.falar.bind(pessoa). Quando chamar essa função ela reconhecerá a variavel dentro de pessoa. Funciona apenas na chamada;
+		
+		arrow:
+• sintaxe reduzida;
+• const nomeDaFuncao = (parametros) =>{
+	return valor
+} isso é uma arrow function;
+também podemos declarar apenas const nomeDaFuncao = (parametros) => valor, onde valor ja é o return;
+
+		observer:
+• 
