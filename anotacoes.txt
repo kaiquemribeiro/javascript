@@ -115,5 +115,5 @@ também podemos declarar apenas const nomeDaFuncao = (parametros) => valor, onde
 } isso é uma arrow function;
 também podemos declarar apenas const nomeDaFuncao = (parametros) => valor, onde valor ja é o return;
 
-		observer:
+		callback:
 • 
