@@ -6,7 +6,7 @@ let x = 0;
 
 for (i = 0; i <= 20; i++){
     if (vetor[i] % 2 === 0) p++;
-    if (vetor[i] % 2 != 0) x++
+    else x++;
 }
 
 console.log(`${p} Numeros par`);
