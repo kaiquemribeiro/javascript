@@ -115,5 +115,21 @@ também podemos declarar apenas const nomeDaFuncao = (parametros) => valor, onde
 } isso é uma arrow function;
 também podemos declarar apenas const nomeDaFuncao = (parametros) => valor, onde valor ja é o return;
 
-		callback:
+		declarações:
+• declaração normal;
+• função anonima guardando dentro de uma variavel ou constante;
+
+		contexto lexico:
+• escopo;
+• cada função carrega consigo o contexto no qual ela foi escrita;
+
+		closure:
+• escopo criado quando uma função é declarada;
+• permite a função acessar manipular variaveis externas a função;
+
+		funções factory:
+• uma função que sempre retorna um objeto;
+• cria a instancia de um objeto ao chama-la;
+• return {objeto};
+• pode receber parametros para preencher os objetos;
 • 
